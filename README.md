@@ -1,20 +1,27 @@
 # Ruby Wisp
 
-Ruby bridge for [Wisp](https://github.com/Gozala/wisp) compiler
+Ruby bridge for [wisp](https://github.com/Gozala/wisp) compiler
+Can integrate with Rails 4.0 and better
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'ruby-wisp'
+```ruby
+gem 'ruby-wisp', '~> 1.0.0.beta1', require: 'wisp'
+```
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install ruby-wisp
+```bash
+$ gem install ruby-wisp
+```
 
 ## Usage
 
@@ -24,8 +31,6 @@ require 'wisp'
 Wisp.compile "(:foo bar)"
 # => "(bar || 0)[\"foo\"]"
 
-Wisp.compile File.new "app.wisp"
-Wisp.compile File.read "app.wisp"
 Wisp.compile File.open "app.wisp"
 ```
 
