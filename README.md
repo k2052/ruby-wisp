@@ -1,6 +1,6 @@
-# Ruby::Wisp
+# Ruby Wisp
 
-TODO: Write a gem description
+Ruby bridge for [Wisp](https://github.com/Gozala/wisp) compiler
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'wisp'
+
+Wisp.compile "(:foo bar)"
+# => "(bar || 0)[\"foo\"]"
+
+Wisp.compile File.new "app.wisp"
+Wisp.compile File.read "app.wisp"
+Wisp.compile File.open "app.wisp"
+```
 
 ## Contributing
 
