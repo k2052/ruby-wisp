@@ -1,7 +1,6 @@
 # Ruby Wisp
 
-Ruby bridge for [wisp](https://github.com/Gozala/wisp) compiler
-Can integrate with Rails 4.0 and better
+Ruby bridge for [wisp](https://github.com/Gozala/wisp) compiler. Integrates with Rails 4.0 and better.
 
 ## Installation
 
