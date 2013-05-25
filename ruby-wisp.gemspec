@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version       = Wisp::VERSION
   s.authors       = ['Yuri Artemev']
   s.email         = ['i@artemeff.com']
-  s.description   = %q{Ruby Wisp is a bridge to the JS Wisp compiler}
+  s.description   = %q{Ruby Wisp is a wrapper to the JS Wisp compiler}
   s.summary       = %q{Ruby Wisp compiler}
   s.homepage      = 'https://github.com/artemeff/ruby-wisp'
   s.license       = 'MIT'
@@ -17,5 +17,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'execjs'
   s.add_dependency 'ruby-wisp-source'
 
-  s.add_development_dependency 'railties',    '>= 4.0.0.beta', '< 5.0'
+  s.add_development_dependency 'rails', '>= 4.0.0.beta', '< 5.0'
+  s.add_development_dependency 'rake'
 end
