@@ -18,5 +18,4 @@ Gem::Specification.new do |s|
   s.add_dependency 'ruby-wisp-source'
 
   s.add_development_dependency 'rails', '>= 4.0.0.beta', '< 5.0'
-  s.add_development_dependency 'rake'
 end
