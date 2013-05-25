@@ -1,5 +1,10 @@
 # Ruby Wisp
 
+[![Gem version](https://badge.fury.io/rb/ruby-wisp.png)](https://rubygems.org/gems/ruby-wisp)
+[![Build Status](https://secure.travis-ci.org/artemeff/ruby-wisp.png)](https://travis-ci.org/artemeff/ruby-wisp)
+[![Code Climate](https://codeclimate.com/github/artemeff/ruby-wisp.png)](https://codeclimate.com/github/artemeff/ruby-wisp)
+[![Dependency Status](https://gemnasium.com/artemeff/ruby-wisp.png)](https://gemnasium.com/artemeff/ruby-wisp)
+
 Ruby bridge for [wisp](https://github.com/Gozala/wisp) compiler. Integrates with Rails 4.0 and better.
 
 ## Installation
