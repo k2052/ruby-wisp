@@ -2,6 +2,7 @@ require 'execjs'
 require 'wisp/source'
 require 'wisp/runtime'
 require 'wisp/rails' if defined? ::Rails
+require 'wisp/padrino' if defined? ::Padrino
 
 module Wisp
   extend Runtime
